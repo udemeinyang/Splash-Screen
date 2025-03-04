@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     contentAlignment = Alignment.Center
                 ){
-                    Greeting("Android")
+                    Greeting("Udeme")
 
                     }
                 }
@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hi  $name dunstan inyang",
+        text = "HI  $name dunstan inyang",
         modifier = modifier
     )
 }
